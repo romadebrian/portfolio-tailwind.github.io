@@ -2,6 +2,7 @@
 
 @theme {
   --screens-2xl: 1320px;
+  /* --container-8xl: 96rem; */
 }
 
 @theme extend {
@@ -32,4 +33,8 @@ body {
 }
 .hamburger-active > span:nth-child(3) {
   @apply -rotate-45;
+}
+
+.container {
+  @apply mx-auto px-4;
 }
